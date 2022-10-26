@@ -39,3 +39,31 @@
 .read-the-docs {
   color: #888;
 }
+
+.formula_menu ul li.current {
+  background-color: #cfeeff;
+}
+
+.formula_menu ul li {
+  padding: 0 10px;
+  height: 32px;
+  line-height: 32px;
+  cursor: pointer;
+  overflow: hidden;
+  font-size: 12px;
+}
+
+.formula_menu ul li em.more:after {
+  content: "\E60C";
+  text-align: center;
+  font-weight: 400!important;
+  text-decoration: none!important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-stroke-width: 0.22px;
+  position: relative;
+  font-family: hbicon;
+  padding-left: 1px;
+  color: #9da1c4;
+  font-size: 12px;
+}
